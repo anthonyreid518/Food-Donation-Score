@@ -13,8 +13,18 @@ food_option = st.selectbox(
 
 st.write('You selected:', food_option)
 
-option = st.selectbox(
-     'How would you like to be contacted?',
- ('Email', 'Home phone', 'Mobile phone'))
 
-st.write('You selected:', option)
+food_canned= st.selectbox(
+     'Is the food canned or not',
+ ('Canned', 'Not Canned'))
+
+st.write('Food#1 is', food_canned)
+
+
+sl_number = st.number_input('Input shelf life.', min_value = 1, step= 1)
+
+shelf_life = st.selectbox(
+     'Unit of shelf life',
+ ('Days', 'Months', 'Years'))
+
+st.write('The shelf life of Food#1 food is:', sl_number, shelf_life)
