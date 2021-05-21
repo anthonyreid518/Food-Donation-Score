@@ -1,0 +1,9 @@
+The following packages were used for this project.
+
+- mpmath 1.1.0
+- pandas 1.2.4
+- numpy 1.19.5
+- seaborn 0.11.0
+- Python 3.8.5 
+- matplotlib 3.4.0
+- streamlit 0.62.0  
